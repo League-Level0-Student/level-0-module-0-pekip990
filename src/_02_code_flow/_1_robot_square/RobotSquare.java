@@ -17,11 +17,13 @@ public class RobotSquare {
 
         // Put the robot's pen down so it can draw
 		//        Use the     rob.penDown();   command.
-
+rob.penDown();
         // SPEED. Make the robot move quickly.
 		//        Use the     rob.setSpeed();   command.
-
-
+rob.setSpeed(2);
+	for (int i = 0; i < 4; i++) {
+		rob.move(200, 200);
+	}
         // DRAW.  Draw a line
     	//		Use the     rob.move(); command
 
