@@ -22,8 +22,8 @@ rob.penDown();
 		//        Use the     rob.setSpeed();   command.
 rob.setSpeed(2);
 	for (int i = 0; i < 4; i++) {
-		rob.move(200, 200);
-	}
+		rob.move(100);
+rob.turn(90);}
         // DRAW.  Draw a line
     	//		Use the     rob.move(); command
 
